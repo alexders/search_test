@@ -4,7 +4,7 @@
  * @Author: sueRimn
  * @Date: 2021-09-22 17:37:21
  * @LastEditors: sueRimn
- * @LastEditTime: 2021-09-22 17:43:50
+ * @LastEditTime: 2021-09-22 17:56:03
 -->
 <template>
   <div class="row">
@@ -43,7 +43,12 @@
 
 <script>
 export default {
-    name:'List'
+    name:'List',
+    data() {
+      return {
+        user:'[]'
+    }
+    }
 }
 </script>
 
